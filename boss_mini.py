@@ -26,7 +26,7 @@ def heal():
 # --- Simple Game Loop ---
 while p_hp > 0 and b_hp > 0:
     print(f"\nPlayer: {p_hp} | Boss: {b_hp}")
-    choice = input("Action [a]ttack, [h]eal, [c]heat: ").lower()
+    choice = input("Action [a]ttack, [h]eal").lower()
 
     if choice == 'a':
         attack()
